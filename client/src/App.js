@@ -6,7 +6,7 @@ const App = () => {
   useEffect(() => {
     fetch('https://backend-deploy-xvdb.onrender.com')
       .then((res) => res.json())
-      .then((name) => setName([name]))
+      .then((nme) => setName([nme]))
   }, [])
 
   return (
